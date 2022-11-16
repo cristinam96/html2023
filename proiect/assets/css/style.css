@@ -1,3 +1,13 @@
 ul li {
     display:inline-block
 }
+
+#header1 {
+width: 100%;
+height: auto;  
+}
+
+nav {
+    align-content: center;
+    align-content: space-between;
+}
