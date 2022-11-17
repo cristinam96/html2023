@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele</title>
+    <style>
+        table{
+            border: 2px red solid;
+            border-collapse: collapse;
+        }
+
+        
+   table tr td {
+
+    border: 1px blue solid;
+    padding: 10px;
+    
+   }
+
+   table tr:nth-child(2n){
+    color: brown;
+    background-color: burlywood;
+   }
+
+   table tr:nth-child(2n+1) {
+    color:black;
+    background-color: antiquewhite;
+   }
+
+   table tr:first-child{
+    background-color: aqua;
+    color: black;
+   }
+
+   table :hover {
+    background-color: blue;
+    color: green;
+   }
+    </style>
+</head>
+<body>
+    <h1>Primul meu tabel</h1>
+    <table>
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Mail</th>
+            <th>Telefon</th>
+        </tr>
+        
+        <tr>
+            <td>Ion</td>
+            <td>Popescu</td>
+            <td>ionpopescu@gmail.com</td>
+            <td>0759889567</td>
+        </tr>
+
+        <tr>
+            <td>Florica</td>
+            <td>Dansatoarea</td>
+            <td>floricicadansatoarea@gmail.com</td>
+            <td>0759889888</td>
+        </tr>
+
+        <tr>
+            <td>Stan</td>
+            <td>Gheorghe</td>
+            <td>stangheorghe@gmail.com</td>
+            <td>0759889567</td>
+        </tr>
+
+        <tr>
+            <td>Dani</td>
+            <td>Mocanu</td>
+            <td>danimocanu@gmail.com</td>
+            <td>0759889888</td>
+    </table>    
+</body>
+</html>
